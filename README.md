@@ -1,5 +1,6 @@
 ### Community Repo Cafe
 [![OpenEBS Welcome to Community Repo Coffee SHop](/images/coffe-shop-hacker-pixel-art_HERO_banner.png)](https://www.openebs.io/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenebs%2Fcommunity.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenebs%2Fcommunity?ref=badge_shield)
 <BR>
 
 > [!Important]
@@ -64,3 +65,7 @@ Thanks for dropping by. // We appreciate everyone in our community and would lov
 
 ## Activity dashboard
 ![Alt](https://repobeats.axiom.co/api/embed/1e565d4d1fdfeacd2cf810f10bcb6cde7368c9ea.svg "Repobeats analytics image")
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenebs%2Fcommunity.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenebs%2Fcommunity?ref=badge_large)
