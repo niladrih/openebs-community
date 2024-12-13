@@ -65,9 +65,9 @@ In the past, the OpenEBS project has tried to accomplish too much. Our scope was
 | 2. | Graphical user interface for setup, administration, reporting, dashboards |
 | 3. | Vendor-specific proprietary integrations, including vendor-specific cloud hosting integrations and optimizations |
 | 4. | Vendor-specific authentication, authorization, key management |
-| 5. | Application-level optimizations and Storage operations beyond what is provided in the file system and kernel drivers (the OpenEBS project does not improve upon or develop our own file systems, nor do we add optimization capabilities)
-| 6. | Complex Business Application Logic optimizations that can't be easily supported or publicly discussed via/in a free open-source Slack support channel without compromising the user/businesses)
-| 7. | K8s cluster-specific, Non-storage related business logic. (logic that applies ``` primarily ``` to the K8s cluster space and not the storage space
+| 5. | Application-level optimizations and Storage operations beyond what is provided in the file system and kernel drivers (the OpenEBS project does not improve upon or develop our own file systems, nor do we add optimization capabilities) |
+| 6. | Complex Business Application Logic optimizations that can't be easily supported or publicly discussed via/in a free open-source Slack support channel without compromising the user/businesses |
+| 7. | K8s cluster-specific, Non-storage related business logic. (logic that applies ``` primarily ``` to the K8s cluster space and not the storage space) |
 
 <BR>
 
@@ -103,7 +103,7 @@ DataCore, Inc. is a CNCF Silver member. DataCore supports CNCF extensively and f
 > * OpenEBS was created by MayaData (now part of [DataCore Software, Inc.](https://datacore.com) ), and donated to [CNCF](https://cncf.io) in 2019.
 > * DataCore engineers contribute a majority of the contributions, program management, Engineering, Dev, and QA resources as well as considerable infrastructure funding to the daily operations of the project.
 > * The project requires multiple Full-Time ```Subject Matter Experts```, Full-Time storage engineers and Full-Time QA Engineers/testers. While the project requires this commitment, it is expected DataCore engineers may be a majority of the contributing Eng/Dev/QA/PM community.
-> * OpenEBS is a community project, and DataCore has been and continues to be a significant part of the community
+> * OpenEBS is a community project, and DataCore has been and continues to be a significant part of the community.
 
 ## Conformance
 
