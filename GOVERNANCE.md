@@ -136,3 +136,7 @@ If you have a technical dispute that you feel has reached an impasse with a subs
 ## Changes to this document
 
 Changes to governance policy and any supporting documents must be agreed and approved by 66% of the Maintainers either by vote, or by review and approval of a PR on the document.
+
+## Code of Conduct
+
+OpenEBS follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).

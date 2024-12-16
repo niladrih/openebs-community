@@ -1,4 +1,4 @@
-### Community Repo Cafe
+# Community Repo Cafe
 
 [![OpenEBS Welcome to Community Repo Coffee SHop](/images/coffe-shop-hacker-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenebs%2Fcommunity.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenebs%2Fcommunity?ref=badge_shield)

@@ -271,3 +271,7 @@ The following table is a guide to help you decide which channel, method and mech
 | 5 | Our Projects | We manage some major initiatives via the **GitHub Projects tool**.<BR> Users and community members are welcome to contribute, comment and participate in Public projects.<BR> Projects are enabled and managed on a ```per-repo basis```. Few sub-projects may have their specific CONTRIBUTING guides, please refer them as well. |
 | 6. | Repo PR's | You may engage and contribute via the standard **GitHub PR** ```(Pull Request)``` methodology.<BR> PR's are low-level repo/product/component focused engineering process used to manage **```low-level changes to code```**.<BR> For the best community experience, ```Do Not``` create PR's for **Discussions**, **Issues** or **support tickets** (such items may be migrated to the appropriate forum/tool and could become stale and/or be closed without action/comment). |
 | 7. | OEP's | You may propose features via an OpenEBS Enhancement Proposal (OEP) through a **GitHub PR** ```(Pull Request)``` methodology.<BR> For more information please refer to the [OEP process](https://github.com/openebs/openebs/blob/main/designs/oep-process.md). |
+
+## Code of Conduct
+
+OpenEBS follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).
