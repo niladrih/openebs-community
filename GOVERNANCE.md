@@ -80,7 +80,7 @@ If a maintainer can no longer meet their commitments, they are expected to consu
 6. Decision is approved with a super-majority: 66% or more of maintainers who have voted within two weeks,
 7. If 66% of all maintainers have approved within two weeks, the voting is closed early.
 
-Changes to the maintainer list (from voting-in, voting-out or resignations) are recorded in the maintainer meeting weekly minutes, and reflected in the [MAINTAINERS](./MAINTAINERS) document. For maintainers voted-in, permissions are immediately added. For maintainers voted-out permissions are immediately removed.
+Changes to the maintainer list (from voting-in, voting-out or resignations) are recorded in the maintainer meeting weekly minutes, and reflected in the [MAINTAINERS](./MAINTAINERS.md#maintainers) document. For maintainers voted-in, permissions are immediately added. For maintainers voted-out permissions are immediately removed.
 
 ### Special Maintainer
 
@@ -89,17 +89,23 @@ and responsibilities are scoped. A person can have one or more Special Maintaine
 
 OpenEBS has appointed or may appoint special maintainers for following roles:
 
-* CNCF Liaison. To be a primary point of contact between the project and CNCF
-* Project manager. To keep track of tasks, and make sure maintainers, special maintainers and contributors deliver on time
-* Sub-project maintainer. To own specific project (typically an engine), and to ensure coding standards, issue resolution, documentation, roadmap is in compliance for the sub-project
-* Documentation manager. To oversee and help produce the techdocs and community documentation
-* Test manager. To oversee and coordinate test coverage
-* Community Manager.
-* Special projects. Other projects that come up from time-to-time
+* CNCF Liaison
+  * To be a primary point of contact between the project and CNCF
+* Project manager
+  * To keep track of tasks, and make sure maintainers, special maintainers and contributors deliver on time
+* Sub-project maintainer
+  * To own specific project (typically an engine), and to ensure coding standards, issue resolution, documentation, roadmap is in compliance for the sub-project
+* Documentation manager
+  * To oversee and help produce the techdocs and community documentation
+* Test manager
+  * To oversee and coordinate test coverage
+* Community Manager
+* Special projects
+  * Other projects that come up from time-to-time
 
 Special maintainers are enabled to act independently. They do not have responsibilities within the umbrella project. They do not have voting rights over the umbrella project. They are expected to participate with the community, They are not expected to participate in maintainer meetings, unless requested.
 
-Special Maintainers are listed in the [MAINTAINERS](./MAINTAINERS) document.
+Special Maintainers are listed in the [MAINTAINERS](./MAINTAINERS.md#special-maintainers) document.
 
 ### Contributor
 
@@ -130,3 +136,7 @@ If you have a technical dispute that you feel has reached an impasse with a subs
 ## Changes to this document
 
 Changes to governance policy and any supporting documents must be agreed and approved by 66% of the Maintainers either by vote, or by review and approval of a PR on the document.
+
+## Code of Conduct
+
+OpenEBS follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).

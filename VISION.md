@@ -37,7 +37,7 @@ This document presents the project:
 
 ### Scope
 
-In the past, the OpenEBS project has tried to accomplish too much. Our scope was too broad and not clearly defined enough for our community. We are explicitly naming the following capabilities as ```in-scope`` and```out-of-scope`` for the project:
+In the past, the OpenEBS project has tried to accomplish too much. Our scope was too broad and not clearly defined enough for our community. We are explicitly naming the following capabilities as ```in-scope``` and ```out-of-scope``` for the project:
 
 > **In Scope** <BR>
 
@@ -53,7 +53,7 @@ In the past, the OpenEBS project has tried to accomplish too much. Our scope was
 | 9. | ```Rest API```, ```CLI``` and Extensibility for using, embedding, and extending OpenEBS capabilities |
 | 10. | Storage Reporting, alerting, monitoring, metrics |
 | 11. | Read/Write Access Modes for RWO, ROX, RWOP - (*RWX with strict limitations) |
-| 12. | Deployable as ```On-premise``,```SaaS/PaaS in-cloud``, ```Bare Metal```, ```Hypervisor``` infrastructure |
+| 12. | Deployable as ```On-premise```,```SaaS/PaaS in-cloud```, ```Bare Metal```, ```Hypervisor``` infrastructure |
 
 <BR>
 
@@ -65,9 +65,9 @@ In the past, the OpenEBS project has tried to accomplish too much. Our scope was
 | 2. | Graphical user interface for setup, administration, reporting, dashboards |
 | 3. | Vendor-specific proprietary integrations, including vendor-specific cloud hosting integrations and optimizations |
 | 4. | Vendor-specific authentication, authorization, key management |
-| 5. | Application-level optimizations and Storage operations beyond what is provided in the file system and kernel drivers (the OpenEBS project does not improve upon or develop our own file systems, nor do we add optimization capabilities)
-| 6. | Complex Business Application Logic optimizations that can't be easily supported or publicly discussed via/in a free open-source Slack support channel without compromising the user/businesses)
-| 7. | K8s cluster-specific, Non-storage related business logic. (logic that applies ``` primarily ``` to the K8s cluster space and not the storage space
+| 5. | Application-level optimizations and Storage operations beyond what is provided in the file system and kernel drivers (the OpenEBS project does not improve upon or develop our own file systems, nor do we add optimization capabilities) |
+| 6. | Complex Business Application Logic optimizations that can't be easily supported or publicly discussed via/in a free open-source Slack support channel without compromising the user/businesses |
+| 7. | K8s cluster-specific, Non-storage related business logic. (logic that applies ``` primarily ``` to the K8s cluster space and not the storage space) |
 
 <BR>
 
@@ -77,7 +77,7 @@ In the past, the OpenEBS project has tried to accomplish too much. Our scope was
 
 ## Values
 
-The OpenEBS project and its leadership embrace the [values of CNCF](https://github.com/kubernetes/community/blob/master/values.md)
+The OpenEBS project and its leadership embrace the [values of CNCF](https://github.com/kubernetes/community/blob/master/values.md).
 
 ## Restraints
 
@@ -103,7 +103,7 @@ DataCore, Inc. is a CNCF Silver member. DataCore supports CNCF extensively and f
 > * OpenEBS was created by MayaData (now part of [DataCore Software, Inc.](https://datacore.com) ), and donated to [CNCF](https://cncf.io) in 2019.
 > * DataCore engineers contribute a majority of the contributions, program management, Engineering, Dev, and QA resources as well as considerable infrastructure funding to the daily operations of the project.
 > * The project requires multiple Full-Time ```Subject Matter Experts```, Full-Time storage engineers and Full-Time QA Engineers/testers. While the project requires this commitment, it is expected DataCore engineers may be a majority of the contributing Eng/Dev/QA/PM community.
-> * OpenEBS is a community project, and DataCore has been and continues to be a significant part of the community
+> * OpenEBS is a community project, and DataCore has been and continues to be a significant part of the community.
 
 ## Conformance
 
@@ -114,7 +114,7 @@ The OpenEBS project and CNCF recognize the importance of supporting this and mai
 
 ## Rules and Governance
 
-The [OpenEBS GitHub organization](https://github.com/openebs) has multiple repositories, for the purpose of organizing project information, source code, assets, Intellectual property (IP), and resources. Every repository in the organization follows the same set of “umbrella” Project Rules and [Governance](./GOVERNANCE.md). All community-wide information  is located in the [OpenEBS Community Repository](https://github.com/openebs/community).
+The [OpenEBS GitHub organization](https://github.com/openebs) has multiple repositories, for the purpose of organizing project information, source code, assets, Intellectual property (IP), and resources. Every repository in the organization follows the same set of “umbrella” Project Rules and [Governance](./GOVERNANCE.md). All community-wide information is located in the [OpenEBS Community Repository](https://github.com/openebs/community).
 
 ## Archive Organization
 >
@@ -122,5 +122,9 @@ The [OpenEBS GitHub organization](https://github.com/openebs) has multiple repos
 > The OpenEBS project Leadership/Maintainers also administer the affiliated [**OpenEBS-archive organization**](https://github.com/openebs-archive). <BR>
 >
 > 1. This parallel organization is **OWNED by CNCF** and administrated as a reference archive for OpenEBS ```Legacy``` and ```Deprecated``` OpenEBS repositories, assets, IP, source code, dependencies and resources. <BR>
-> 2. From time to time, we reserve the right to selectively Deprecate and Archive OpenEBS components and  physically migrate them **```out-of ``** the OpenEBS Parent project; and into the Archive organization. This process **``` officially removes```** those OpenEBS components from the parent OpenEBS project/product. All entities held within the Archive org are **NO LONGER** an active component of the OpenEBS Parent project/product. <BR>
+> 2. From time to time, we reserve the right to selectively Deprecate and Archive OpenEBS components and  physically migrate them **```out-of```** the OpenEBS Parent project; and into the Archive organization. This process **```officially removes```** those OpenEBS components from the parent OpenEBS project/product. All entities held within the Archive org are **NO LONGER** an active component of the OpenEBS Parent project/product. <BR>
 > 3. The Archive org is **NOT** intended for active code or community contributions. The [Project Rules and Governance](./GOVERNANCE.md) also apply to the OpenEBS-archive organization, unless explicitly stated otherwise in the OpenEBS-archive organization README. <BR>
+
+## Code of Conduct
+
+OpenEBS follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).

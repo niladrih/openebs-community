@@ -44,9 +44,9 @@ After this, you're ready to create an Issue and know where to create it.
 > 1. ```Organizational``` issues that aren't specifically related to individual products, technology, or code
 >    - For this type of issue, [create your issue here](https://github.com/openebs/openebs/issues)
 >    - You might also consider creating a discussion in the [parent org discussions area](https://github.com/orgs/openebs/discussions)
-> 3. Issues that span ```multiple products```
+> 2. Issues that span ```multiple products```
 >    - For this type of issue, [create your issue here](https://github.com/openebs/openebs/issues)
-> 4. Issues focused on ```1 specific Product```
+> 3. Issues focused on ```1 specific Product```
 >    - For this type of issue, create your issue in the Issue tab of the correct project/product repo
 >    - View the list of our [product components here](./CONTRIBUTING.md#multiple-products)
 <BR>
@@ -203,23 +203,23 @@ The generally accepted GitHub DCO policy requires that all committing users must
 Some of the repos use the GitHub Integration <kbd>Merge BOT</kbd> App called ``` BORS-NG ``` as a CI Pipeline automation workflow front tool. <BR>
 Some of the BORS commands are as follows:
 
-| Syntax | Description
-|--------|------------
-| bors r+ | Run the test suite and push to master if it passes. Short for "reviewed: looks good."
-| bors merge | Equivalent to `bors r+`.
-| bors r=[list] | Same as r+, but the "reviewer" in the commit log will be recorded as the user(s) given as the argument.
-| bors merge=[list] | Equivalent to `bors r=[list]`
-| bors r- | Cancel an r+, r=, merge, or merge=
-| bors merge- | Equivalent to `bors r-`
-| bors try | Run the test suite without pushing to master.
-| bors try- | Cancel a try
-| bors delegate+ <br> bors d+ | Allow the pull request author to r+ their changes.
-| bors delegate=[list] <br> bors d=[list] | Allow the listed users to r+ this pull request's changes.
-| bors ping | Check if bors is up. If it is, it will comment with _pong_.
-| bors retry | Run the previous command a second time.
-| bors p=[priority] | Set the priority of the current pull request. Pull requests with different priority are never batched together. The pull request with the bigger priority number goes first.
-| bors r+ p=[priority] | Set the priority, run the test suite, and push to master (shorthand for doing p= and r+ one after the other).
-| bors merge p=[priority] | Equivalent to `bors r+ p=[priority]`
+| Syntax | Description |
+|--------|------------ |
+| bors r+ | Run the test suite and push to master if it passes. Short for "reviewed: looks good" |
+| bors merge | Equivalent to `bors r+` |
+| bors r=[list] | Same as r+, but the "reviewer" in the commit log will be recorded as the user(s) given as the argument |
+| bors merge=[list] | Equivalent to `bors r=[list]` |
+| bors r- | Cancel an r+, r=, merge, or merge= |
+| bors merge- | Equivalent to `bors r-` |
+| bors try | Run the test suite without pushing to master |
+| bors try- | Cancel a try |
+| bors delegate+ <br> bors d+ | Allow the pull request author to r+ their changes |
+| bors delegate=[list] <br> bors d=[list] | Allow the listed users to r+ this pull request's changes |
+| bors ping | Check if bors is up. If it is, it will comment with _pong_ |
+| bors retry | Run the previous command a second time |
+| bors p=[priority] | Set the priority of the current pull request. Pull requests with different priority are never batched together. The pull request with the bigger priority number goes first |
+| bors r+ p=[priority] | Set the priority, run the test suite, and push to master (shorthand for doing p= and r+ one after the other) |
+| bors merge p=[priority] | Equivalent to `bors r+ p=[priority]` |
 
 \
 We are evaluating bringing BORS to all repos or alternatively switch to the new [GitHub Merge queues](https://github.blog/news-insights/product-news/github-merge-queue-is-generally-available/).
@@ -254,12 +254,13 @@ Social media links
 
 ## A good contributor workflow
 
-```ruby
 The following table is a guide to help you decide which channel, method and mechanism to use when contributing.
-- In most cases, consider starting at the top (post a Slack channel question)
-- and then work your way down, Discussion, Issue, Projects
-- Ending at a Pull Request; the most complex community contribution/interaction type.
-```
+
+1. In most cases, consider starting at the top (post a Slack channel question)
+1. And then work your way down, Discussion, Issue, Projects
+1. Ending at a Pull Request; the most complex community contribution/interaction type.
+
+<BR>
 
 | Priority | Type | Description |
 | :---: | :--- | :---        |
@@ -268,5 +269,9 @@ The following table is a guide to help you decide which channel, method and mech
 | 3. | [Org Issues](https://github.com/openebs/openebs/issues) | Non-Product Issues not related to technology, bugs, or product code are managed in the top-level [```Org repo```](https://github.com/openebs/openebs).<BR> You can create/submit ORG level issues as per the normal GitHub methodology & rules. Consider doing this for issues that are ```horizontal``` across [all projects/repos/products](https://github.com/openebs/openebs/issues). |
 | 4. | Product Issues   | Product Issues are managed for each ```individual repo```.<BR> You can create/submit issues as per the normal GitHub methodology & rules. Please choose carefully if you are engaging the team in a [```General Discussion```](https://github.com/orgs/openebs/discussions) or need help with a very specific **Product ```Issue```**. This will help you get the best community experience. Please create your interactions in the **correct** GitHub forum/tool. |
 | 5 | Our Projects | We manage some major initiatives via the **GitHub Projects tool**.<BR> Users and community members are welcome to contribute, comment and participate in Public projects.<BR> Projects are enabled and managed on a ```per-repo basis```. Few sub-projects may have their specific CONTRIBUTING guides, please refer them as well. |
-| 6. | Repo PR's | You may engage and contribute via the standard **GitHub PR** ```(Pull Request)``` methodology.<BR> PR's are low-level repo/product/component focused engineering process used to manage **```low-level changes to code```**.<BR> For the best community experience, ```Do Not``` create PR's for **Discussions**, **Issues** or **support tickets**. (such items may be migrated to the appropriate forum/tool and could become stale and/or be closed without action/comment. |
+| 6. | Repo PR's | You may engage and contribute via the standard **GitHub PR** ```(Pull Request)``` methodology.<BR> PR's are low-level repo/product/component focused engineering process used to manage **```low-level changes to code```**.<BR> For the best community experience, ```Do Not``` create PR's for **Discussions**, **Issues** or **support tickets** (such items may be migrated to the appropriate forum/tool and could become stale and/or be closed without action/comment). |
 | 7. | OEP's | You may propose features via an OpenEBS Enhancement Proposal (OEP) through a **GitHub PR** ```(Pull Request)``` methodology.<BR> For more information please refer to the [OEP process](https://github.com/openebs/openebs/blob/main/designs/oep-process.md). |
+
+## Code of Conduct
+
+OpenEBS follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).
