@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+PRODID:-//OpenEBS Maintainers//Online Zoom Meeting//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:community-meeting-openebs.team@gmail.com
+DTSTAMP:20250101T120000Z
+ORGANIZER;CN=OpenEBS Maintainers:mailto:openebs.team@gmail.com
+DTSTART:20250109T140000Z
+DTEND:20250109T150000Z
+RRULE:FREQ=MONTHLY;BYDAY=-1TH
+RDATE:20250109T140000Z
+SUMMARY:Monthly OpenEBS Community Meeting
+DESCRIPTION:Join Zoom Meeting: https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1 (meetings are recorded and published on to the OpenEBS Community YouTube channel: https://www.youtube.com/@openebscommunity6021)
+LOCATION:Online (Zoom)
+END:VEVENT
+END:VCALENDAR
